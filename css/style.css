@@ -188,7 +188,7 @@ tr{
 }
 
 .servicetitle {
-    width: 60%;
+    width: 70%;
     margin: 0 auto;
 }
 
@@ -316,7 +316,7 @@ tr{
 }
 
 .blogtitle {
-    width: 80%;
+    width: 70%;
     margin: 0 auto;
     padding-top: 30px;
 }
@@ -339,7 +339,8 @@ tr{
     text-align: center;
     justify-content: center;
     margin: 0 auto;
-    max-width: 80vw;
+    max-width: 70vw;
+    position: relative;
 
 }
 
@@ -369,6 +370,17 @@ tr{
     background-color: white;
     overflow: hidden;
     flex: 1;
+}
+
+.blog_logo {
+    background-color: #b60079;
+    color: white;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    width: 6vw;
+    font-size: 1.2vw;
+    position: absolute;
+    border-top-left-radius: 10px;
 }
 
 .card_title {
