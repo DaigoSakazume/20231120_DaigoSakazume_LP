@@ -1,12 +1,12 @@
 .header{
-    height: 80px;
+    height: auto;
     margin: 10px 10px 10px 10px;
     display: flex;
     align-items: center;
 }
 
 .header_logo{
-    width: 200px;
+    width: 14vw;
     height: auto;
     margin-left: 15px;
 }
@@ -15,15 +15,22 @@
     margin: 30px 0 0 auto;
 }
 
+a {
+    text-decoration: none;
+    color:#555555;
+}
+
 ul{
     display: flex;
     float: right;
-    font-size: 20px;
+    font-size: 1.3vw;
 }
 
 li{
     list-style: none;
-    margin-right: 35px;
+    margin-right: 30px;
+    margin-bottom: 20px;
+    color: #555555;
 }
 
 .main_firstview{
@@ -69,7 +76,7 @@ span{
 }
 
 .main_news{
-    margin-top: 250px;
+    margin-top: 200px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -446,7 +453,7 @@ tr{
 
 .information_recruit{
     color: white;
-    font-size: 40px;
+    font-size: 3vw;
     font-weight: bold;
     background-image: url(../img/recruit.png);
     background-size: cover;
@@ -458,7 +465,7 @@ tr{
 
 .information_interview{
     color: white;
-    font-size: 40px;
+    font-size: 3vw;
     font-weight: bold;
     background-image: url(../img/interview.png);
     background-size: cover;
@@ -505,7 +512,7 @@ tr{
 .question_btn img{
     width: 30px;
     vertical-align: middle;
-    margin-right: 20px;
+    margin-right: 25px;
     margin-left: -35px;
 }
 
